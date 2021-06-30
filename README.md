@@ -26,8 +26,9 @@ Now you can see that different folder have been cloned on your system, go to any
 
 ## To containerize this app, follow these steps
 
+```
 docker build -t first-docker-app .
-
+```
 docker container run --name=first-docker-cont -d -p 8500:80 first-docker-app
 
 ## That's it!!! now click on following
