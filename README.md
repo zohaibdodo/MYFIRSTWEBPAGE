@@ -8,7 +8,7 @@ If you don't have git installed on your system, follow the following steps in Te
 sudo apt-get update
 ```
 ```
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 ```
 ```
 sudo apt-get install git
