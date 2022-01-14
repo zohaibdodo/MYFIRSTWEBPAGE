@@ -16,6 +16,9 @@ sudo apt-get install git
 Once you have installed Git, follow the following steps
 ```
 git clone https://github.com/zohaibdodo/MYFIRSTWEBAGE.git
+
+
+PAT:    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
 ```
 ```
 ls
