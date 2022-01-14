@@ -15,10 +15,8 @@ sudo apt-get install git
 ```
 Once you have installed Git, follow the following steps
 ```
-git clone https://github.com/zohaibdodo/MYFIRSTWEBAGE.git
+git clone https://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@github.com/zohaibdodo/MYFIRSTWEBPAGE.git
 
-
-PAT:    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
 ```
 ```
 ls
@@ -30,10 +28,10 @@ Now you can see that different folder have been cloned on your system, go to any
 ## To containerize this app, follow these steps
 
 ```
-docker build -t first-docker-app .
+docker build -t myfirstwebpage .
 ```
 ```
-docker container run --name=first-docker-cont -d -p 8500:80 first-docker-app
+docker container run --name=myfirstwebpage -d -p 8500:80 myfirstwebpage
 ```
 
 ## That's it!!! now click on following
